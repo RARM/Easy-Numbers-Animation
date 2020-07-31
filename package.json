@@ -1,0 +1,20 @@
+{
+  "name": "easy-numbers-animation",
+  "version": "0.0.1",
+  "description": "Quickly animate numbers on scroll in a website.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animate",
+    "scroll",
+    "numbers"
+  ],
+  "author": "Rodolfo A. Rivas Matta",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
