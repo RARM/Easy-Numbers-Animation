@@ -58,7 +58,7 @@ class EasyNA {
     setTimeout(() => {
       interval_var = setInterval(() => {
         instance.current_number += increasing_value;
-        instance.element.innerHTML = instance.current_number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+        instance.element.innerHTML = Math.round(instance.current_number).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         frame++;
 
         if (frame == updates) {
