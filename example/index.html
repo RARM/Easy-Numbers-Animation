@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../src/index.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <p>My number: <span id="num1">15,000</span>.</p>
+    <p>Scroll down to find more!</p>
+
+    <div style="margin-top: 1640px;">
+      <p>My second number: <span id="num2">35,000</span>.</p>
+      <p>My third number: <span id="num3">88,005,000</span>.</p>
+    </div>
+
+    <script type="text/javascript">
+      // EasyNA.test();
+
+      let ids = [
+        "num1",
+        "num2",
+        "num3"
+      ];
+      let easyna_instance = new EasyNA(ids);
+    </script>
+  </body>
+</html>
